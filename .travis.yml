@@ -18,8 +18,8 @@ deploy:
   backet_path: "elasticbeanstalk-us-west-2-968478777257"
   on:
     branch: master
-
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
+
 after_success:
   - echo "test Success !!!!---!!!!!!!"
