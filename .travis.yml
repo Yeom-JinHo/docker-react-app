@@ -4,7 +4,7 @@ language: generic
 services: -docker
 before_install:
   - echo "start!!!!!---!!!!!!"
-  - docker build -t docker-react-app -f Dockerfile.dev
+  - docker build -t docker-react-app -f Dockerfile.dev .
 
 script:
   - docker run -e CI=true docker-react-app npm run test -- --coverage
