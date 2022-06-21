@@ -10,4 +10,4 @@ script:
   - docker run -e CI=true docker-react-app npm run test -- --coverage
 
 after_success:
-  - echo "test Success !!!!---!!!!"
+  - echo "test Success !!!!---!!!!!!!"
