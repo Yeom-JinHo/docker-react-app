@@ -21,6 +21,5 @@ deploy:
 
   access_key_id: $AWS_ACCESS_KEY
   secret_access_key: $AWS_SECRET_ACCESS_KEY
-
-after_success:
-  - echo "test Success !!!!---!!!!!!!"
+# after_success:
+#   - echo "test Success !!!!---!!!!!!!"
